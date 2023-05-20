@@ -1,8 +1,6 @@
 // complete the given function
 
 function palindrome(str){
-
-}
 var s =	str.toLowerCase()
 var i = 0
 	var j = s.length - 1;
@@ -16,4 +14,7 @@ var i = 0
 		}
 		
 	}
+	return true
+}
+
 module.exports = palindrome
